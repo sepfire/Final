@@ -1,8 +1,9 @@
-// data.js
+
 const DATA = {
-    workouts: [
-      // existing data
-    ],
-  };
-  
-  export default DATA;
+  workouts: [
+    
+    // Add more initial workout data as needed
+  ],
+};
+
+export default DATA;

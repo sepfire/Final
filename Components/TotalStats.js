@@ -33,7 +33,7 @@ const TotalStats = ({ workouts }) => {
       {Object.keys(totals).map((activityType, index) => (
         <View key={index}>
           <Text>{`Activity: ${activityType}`}</Text>
-          <Text>{`Total Distance: ${totals[activityType].totalDistance} km`}</Text>
+          <Text>{`Total Distance: ${totals[activityType].totalDistance.toFixed(2)} km`}</Text>
           <Text>{`Total Duration: ${totals[activityType].totalDuration} min`}</Text>
           <Text>--------------------</Text>
         </View>
