@@ -19,11 +19,25 @@ export default StyleSheet.create({
         color: '#ffffffff',
         margin: 10,
     },
-    input: {
-        margin: 10,
+
+    date: {
+        textAlign: 'center',
+        margin: 30,
         borderWidth: 1,
         borderRadius: 10,
-        padding: 10
+        fontSize: 20,
+        fontWeight: 'bold',
+    },
+    header: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        color: '#ffffffff',
+    },
+    input: {
+        margin: 10,
+        borderRadius: 10,
+        backgroundColor: '#ffffffff',
     },
 });
   

@@ -8,7 +8,7 @@ const TotalStats = ({ workouts }) => {
     const totals = {};
 
     workouts.forEach((workout) => {
-      const { type, distance, duration } = workout;
+      const { type, distance, duration, } = workout;
 
       if (!totals[type]) {
         totals[type] = {
